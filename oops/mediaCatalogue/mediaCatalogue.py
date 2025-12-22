@@ -71,9 +71,9 @@ class MediaCatalogue:
             result += '=== MOVIES ===\n'
             for i, movie in enumerate(movies, 1):
                 result += f'{i}. {movie}\n'
-
+                
         if series:
-            result += '=== SERIES ===\n'
+            result += '=== TV SERIES ===\n'
             for i, serie in enumerate(series, 1):
                 result += f'{i}. {serie}\n'
         
